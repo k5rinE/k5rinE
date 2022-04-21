@@ -1,0 +1,34 @@
+package ex;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class ex01 {
+
+	public static void main(String[] args) throws IOException {
+
+		File file = new File("data/data1.txt");
+		
+		FileInputStream src = new FileInputStream(file);
+
+		Scanner sc = new Scanner(src);
+		
+		while(sc.hasNext()) {
+			String tmp = sc.nextLine();
+			System.out.printf("%s"  , tmp);
+		}
+		
+		
+		sc.close();
+		src.close();
+		
+		}
+		
+		
+		
+		
+	}
+
+

@@ -1,0 +1,29 @@
+package ex;
+import java.util.*;
+public class ex01 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int x = 2500;
+		int age = sc.nextInt();
+	
+		
+		if(age>=0 && age<=3) {
+			System.out.printf("%d세 요금 %d원" , age, (int)(x-(x*1)));
+		}
+		else if(age>=4 && age<=13) {
+			System.out.printf("%d세 요금  %d원" , age, (int)(x-(x*0.5)));
+		}
+		else if(age>=14 && age<=19) {
+			System.out.printf("%d세 요금 %d원" , age, (int)(x-(x*0.25)));
+		}
+		else if(age>=65)  {
+			System.out.printf("%d세 요금 %d원" , age, (int)(x-(x*1)));
+		}
+		else if (age>=20 && age <= 64)  {
+			System.out.printf("%d세 요금 %d원" , age, (int)(x-(x*0)));
+		}
+	}
+
+}

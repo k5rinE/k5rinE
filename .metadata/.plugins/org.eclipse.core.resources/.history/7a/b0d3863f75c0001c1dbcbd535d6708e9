@@ -1,0 +1,41 @@
+package ex;
+import java.util.*;
+public class ex06 {
+
+	public static int main(String[] args) {
+		
+		
+				System.out.println("나이 ㄱ");
+				Scanner sc = new Scanner(System.in);
+				int x = 2500;
+				int age = sc.nextInt();
+				
+				
+				
+				
+				
+				
+		public static int age1{
+				if(age1>=0 && age1<=3) {
+					System.out.printf("%d세 요금 %d원" , age1, (int)(x*0));
+				}
+				else if(age1>=4 && age1<=13) {
+					System.out.printf("%d세 요금  %d원" , age1, (int)(x*0.5));
+				}
+				else if(age1>=14 && age1<=19) { // 조건식을 조금 최적화 할 수있음
+					System.out.printf("%d세 요금 %d원" , age1, (int)(x*0.75));
+				}
+				else if(age1>=65)  {
+					System.out.printf("%d세 요금 %d원" , age1, (int)(x*0));
+				}
+				else if (age1>=20 && age1 <= 64)  {
+					System.out.printf("%d세 요금 %d원" , age1, (int)(x));
+				}
+				
+			}
+
+	
+		
+	}
+
+}
