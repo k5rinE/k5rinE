@@ -44,7 +44,7 @@ public class ex04 {
 			count1++;
 		}while(retry==1);
 		
-		System.out.printf("성공%d : 실패%d 횟수: " , count1, count2);
+		System.out.printf("정답%d : 오답%d 횟수: " , count1, count2);
 		System.out.println("프로그램 종료!!");
 	}
 
