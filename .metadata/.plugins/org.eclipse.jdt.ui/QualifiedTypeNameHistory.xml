@@ -11,4 +11,6 @@
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="javax.smartcardio.Card"/>
+    <fullyQualifiedTypeName name="ex.animal"/>
+    <fullyQualifiedTypeName name="ex.ex01.Product.Audio"/>
 </qualifiedTypeNameHistroy>
