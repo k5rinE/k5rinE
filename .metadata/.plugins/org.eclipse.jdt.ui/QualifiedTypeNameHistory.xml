@@ -23,4 +23,11 @@
     <fullyQualifiedTypeName name="org.graalvm.compiler.replacements.nodes.ObjectClone"/>
     <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="ex.B.C"/>
+    <fullyQualifiedTypeName name="java.awt.Rectangle"/>
+    <fullyQualifiedTypeName name="ex.Rectangle"/>
+    <fullyQualifiedTypeName name="ex.Singleton"/>
+    <fullyQualifiedTypeName name="ex.Interface.GroundUnit"/>
+    <fullyQualifiedTypeName name="ex.Interface.Repairable"/>
+    <fullyQualifiedTypeName name="sun.tools.jconsole.Plotter.Unit"/>
 </qualifiedTypeNameHistroy>
