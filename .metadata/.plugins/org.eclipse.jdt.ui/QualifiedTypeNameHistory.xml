@@ -30,4 +30,8 @@
     <fullyQualifiedTypeName name="ex.Interface.GroundUnit"/>
     <fullyQualifiedTypeName name="ex.Interface.Repairable"/>
     <fullyQualifiedTypeName name="sun.tools.jconsole.Plotter.Unit"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
 </qualifiedTypeNameHistroy>
