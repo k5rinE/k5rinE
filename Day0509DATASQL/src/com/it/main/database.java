@@ -143,10 +143,13 @@ public class database {
 			
 			pstmt.setString(1, name);
 			ResultSet rs = pstmt.executeQuery();
-			rs.next();
+			rs.next();  //
 			while (rs.next()) {
 				System.out.println(
-						rs.getInt(1) + ", " + rs.getString(2)  + ", " + rs.getString(3) + ", " + rs.getString(4) + " ");
+						rs.getInt(1) + ", " 
+				+ rs.getString(2)  + ", " 
+				+ rs.getString(3) + ", " 
+				+ rs.getString(4) + " ");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

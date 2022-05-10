@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>구조선택자</title>
+<style type="text/css">
+   th:first-child{ border-radius: 10px 0 0 0; }
+   th:last-child { border-radius: 10px 0 0 0; }
+   th:nth-child(n) { background-color: blue;}
+   
+   td:nth-child(n) { background-color: silver;}
+   td:nth-child(2n+1){ background-color: blue;}
+</style>
+</head>
+<body>
+   <h1>구조선택자</h1>
+   <table>
+      <tr>
+   <!-- th는 찐한글씨체 td는 그냥글씨체 -->
+         <th>Head</th>   
+         <th>Head</th>   
+         <th>Head</th>
+      </tr>   
+      <tr>
+         <td>Body</td>
+         <td>Body</td>
+         <td>Body</td>
+      </tr>   
+      <tr>
+         <td>Body</td>
+         <td>Body</td>
+         <td>Body</td>
+      </tr>   
+      <tr>
+         <td>Body</td>
+         <td>Body</td>
+         <td>Body</td>
+      </tr>   
+   </table>
+</body>
+</html>
