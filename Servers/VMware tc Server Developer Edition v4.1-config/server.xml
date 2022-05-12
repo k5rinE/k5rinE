@@ -16,7 +16,7 @@
             </Realm>
             <Host appBase="webapps" autoDeploy="true" deployOnStartup="true" deployXML="true" name="localhost" unpackWARs="true">
                 <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
-            <Context docBase="Htmltest" path="/Htmltest" reloadable="true" source="org.eclipse.jst.jee.server:Htmltest"/><Context docBase="Day0509Web" path="/Day0509Web" reloadable="true" source="org.eclipse.jst.jee.server:Day0509Web"/><Context docBase="Day0510Web" path="/Day0510Web" reloadable="true" source="org.eclipse.jst.jee.server:Day0510Web"/></Host>
+            <Context docBase="Htmltest" path="/Htmltest" reloadable="true" source="org.eclipse.jst.jee.server:Htmltest"/><Context docBase="Day0509Web" path="/Day0509Web" reloadable="true" source="org.eclipse.jst.jee.server:Day0509Web"/><Context docBase="Day0510Web" path="/Day0510Web" reloadable="true" source="org.eclipse.jst.jee.server:Day0510Web"/><Context docBase="Day0511Web" path="/Day0511Web" reloadable="true" source="org.eclipse.jst.jee.server:Day0511Web"/></Host>
         </Engine>
         <Connector acceptCount="100" connectionTimeout="20000" executor="tomcatThreadPool" maxKeepAliveRequests="15" port="${nio.http.port}" protocol="org.apache.coyote.http11.Http11NioProtocol" redirectPort="${nio.https.port}"/>
     </Service>
